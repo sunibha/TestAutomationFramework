@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHP Travels Automation Test Suite]">
+  <test name="PHP Travels Automation Functional Test(failed)">
+    <classes>
+      <class name="com.phptravels.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.testCases.LoginPageTest -->
+      <class name="com.phptravels.qa.testCases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageLinks"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="verifyHomePageLogoDisplayed"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- PHP Travels Automation Functional Test(failed) -->
+  <test name="PHP Travels Automation - Regression Test(failed)">
+    <classes>
+      <class name="com.phptravels.qa.testCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.testCases.LoginPageTest -->
+      <class name="com.phptravels.qa.testCases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageLinks"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.testCases.HomePageTest -->
+    </classes>
+  </test> <!-- PHP Travels Automation - Regression Test(failed) -->
+</suite> <!-- Failed suite [PHP Travels Automation Test Suite] -->
